@@ -14,8 +14,8 @@ export const TrendsMenu = () => {
                 <TrendOption />
                 <TrendOption />
                 <TrendOption />
-                <div>
-                    <span className="text-xs font-normal pl-2 max-w-full">Mostrar Mas</span>
+                <div className="p-1">
+                    <span className="text-xs font-normal pl-2">Mostrar Mas</span>
                 </div>
             </div>
         </div>

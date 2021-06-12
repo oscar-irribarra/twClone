@@ -1,10 +1,13 @@
 import { SidebarIcon } from "./sidebarIcon"
-import {  HomeIcon, HashtagIcon, PencilIcon, MailIcon, DotsCircleHorizontalIcon, BookmarkIcon, UserIcon, MenuAlt2Icon, BellIcon } from '@heroicons/react/solid'
+import {  HomeIcon, HashtagIcon, PencilIcon, MailIcon, DotsCircleHorizontalIcon, BookmarkIcon, UserIcon, MenuAlt2Icon, BellIcon, GlobeIcon } from '@heroicons/react/solid'
 
 export const LeftSidebar = () => {
     return (
     
         <div className="flex flex-col">
+            <div className="p-1 mb-2" >
+                <GlobeIcon className="h-6 w-6 text-blue-400 my-auto left-0 " />
+            </div>
 
             <SidebarIcon Icon={HomeIcon} Text={'Inicio'} /> 
             <SidebarIcon Icon={HashtagIcon} Text={'explorar'} /> 
@@ -17,7 +20,7 @@ export const LeftSidebar = () => {
 
             <div>
                 <button className="text-white font-bold w-full p-2 rounded-full bg-blue-400 hidden md:block" >Twittear</button>
-                <PencilIcon className="block md:hidden bg-blue-400 h-9 rounded-full p-1" />
+                <PencilIcon className="block md:hidden bg-blue-400 h-8 rounded-full p-1" />
             </div>
         </div>
         

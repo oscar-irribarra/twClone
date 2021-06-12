@@ -13,8 +13,8 @@ export const FollowMenu = () => {
                 <FollowOption />
                 <FollowOption />
                 <FollowOption />
-                <div>
-                    <span className="text-xs font-normal pl-2">Mostrar Mas</span>
+                <div className="p-1">
+                    <span className="text-xs font-normal p-2">Mostrar Mas</span>
                 </div>
             </div>
         </div>

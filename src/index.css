@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    .border{
+        @apply border-gray-400;
+        @apply border-opacity-25;
+    } 
+
+    .border-l{
+        @apply border-gray-400;
+        @apply border-opacity-25;
+    }
+
+    .divide-y{
+        @apply border-gray-400;
+        @apply border-opacity-25;
+    }
+}
