@@ -10,6 +10,11 @@ export const TweetGrid = () => {
             <Tweet />
             <Tweet />
             <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
         </div>
 
     )

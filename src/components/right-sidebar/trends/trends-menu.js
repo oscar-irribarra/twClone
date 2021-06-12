@@ -1,5 +1,5 @@
 
-import { CogIcon } from '@heroicons/react/solid';
+import { CogIcon } from '@heroicons/react/outline';
 import { TrendOption } from './trends-option';
 
 export const TrendsMenu = () => {
@@ -8,7 +8,7 @@ export const TrendsMenu = () => {
             <div className="font-bold divide-y" >
                 <div className="flex flex-row px-3 py-2">
                     <h2 className="flex-1 mr-3 text-base">Tendencias de Global</h2>
-                    <CogIcon className="h-5 w-5 text-blue-400 my-auto" />
+                    <CogIcon className="h-5 w-5 text-blue-400 my-auto hover:bg-blue-400 hover:bg-opacity-10 rounded-full" />
                 </div>
                 <TrendOption />
                 <TrendOption />

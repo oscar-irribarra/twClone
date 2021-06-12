@@ -14,6 +14,11 @@ export const RightSidebar = () => {
             <div className="mb-4">
                 <FollowMenu />
             </div>
+
+            <div className="bottom-0 font-thin text-xs text-gray-400">
+                <span>© { new Date().getFullYear() } TwClon </span>
+            </div>
+
         </div>
     )  
 }

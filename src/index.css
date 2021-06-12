@@ -4,6 +4,10 @@
 
 
 @layer base {
+    button{
+        @apply focus:outline-none;
+    }
+
     .border{
         @apply border-gray-400;
         @apply border-opacity-25;

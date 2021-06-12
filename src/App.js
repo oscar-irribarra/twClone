@@ -9,7 +9,7 @@ function App() {
     <main className=" bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-50 min-h-screen min-w-min" >
       <div className="flex flex-grow justify-center pt-1">
 
-        <div className="hidden md:block w-56">
+        <div className="hidden md:block lg:w-56">
           <LeftSidebar />
         </div>
 
@@ -17,7 +17,7 @@ function App() {
           <Main />
         </div>
 
-        <div className="hidden lg:block w-80">
+        <div className="hidden xl:block w-80">
           <RightSidebar />
         </div>
       </div>

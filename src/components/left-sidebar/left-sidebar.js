@@ -19,8 +19,8 @@ export const LeftSidebar = () => {
             <SidebarIcon Icon={DotsCircleHorizontalIcon} Text={'Mas Opciones'}/> 
 
             <div>
-                <button className="text-white font-bold w-full p-2 rounded-full bg-blue-400 hidden md:block" >Twittear</button>
-                <PencilIcon className="block md:hidden bg-blue-400 h-8 rounded-full p-1" />
+                <button className="text-white font-bold w-full p-2 rounded-full bg-blue-400 hidden lg:block hover:bg-opacity-90" >Twittear</button>
+                <PencilIcon className="block lg:hidden bg-blue-400 h-8 rounded-full p-1" />
             </div>
         </div>
         

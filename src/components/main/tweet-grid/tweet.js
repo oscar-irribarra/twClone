@@ -16,8 +16,8 @@ export const Tweet = () => {
 
             <div className="flex flex-row text-sm">
                 <div className="flex flex-1">
-                    <span className="font-bold">@NASAInterns</span>
-                    <span className="my-auto px-1 font-thin">@NASAInterns</span>
+                    <span className="font-bold">@Happy</span>
+                    <span className="my-auto px-1 font-thin">@non_happy</span>
                     <span className="my-auto px-1 font-thin">· 4h </span>
                 </div>
                 <DotsHorizontalIcon className="h-4 w-4 text-blue-400 my-auto" />

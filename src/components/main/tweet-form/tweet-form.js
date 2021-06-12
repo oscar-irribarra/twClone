@@ -31,7 +31,7 @@ export const TweetForm = () => {
                             </div>
 
                             <div className="flex justify-end">
-                                <button className="text-xs text-white font-bold w-full py-2 px-3.5 rounded-full bg-blue-400 hidden md:block" >Twittear</button>
+                                <button className="text-xs text-white font-bold w-full py-2 px-3.5 rounded-full bg-blue-400 hidden md:block hover:bg-opacity-90" >Twittear</button>
                             </div>
 
                         </div>
