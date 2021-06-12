@@ -15,7 +15,7 @@
     }
 
     .divide-y{
-        @apply border-gray-400;
-        @apply border-opacity-25;
+        @apply dark:divide-gray-50;
+        @apply dark:divide-opacity-20;
     }
 }
