@@ -6,9 +6,9 @@ import { TweetFormOption } from './tweet-form-option';
 export const TweetForm = () => {
     return (
         
-        <div className="flex flex-row pr-2 py-4" >
+        <div className="flex flex-row p-3" >
 
-            <div className="px-2">
+            <div className="pr-2">
                 <Photo />
             </div>
 

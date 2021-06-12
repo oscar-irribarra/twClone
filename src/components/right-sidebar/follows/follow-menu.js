@@ -4,7 +4,7 @@ export const FollowMenu = () => {
     return (
         <div className="flex flex-col rounded-lg dark:bg-gray-800 dark:bg-opacity-60">
             <div className="font-bold divide-y divide-gray-50 divide-opacity-20" >
-                <div className="pl-2 flex flex-row">
+                <div className="flex flex-row px-3 py-2">
                     <h2 className="flex-1 mr-3 text-base">A quién seguir</h2>
                 </div>
                 <FollowOption />
@@ -13,8 +13,8 @@ export const FollowMenu = () => {
                 <FollowOption />
                 <FollowOption />
                 <FollowOption />
-                <div className="p-1">
-                    <span className="text-xs font-normal p-2">Mostrar Mas</span>
+                <div className="px-3 py-2">
+                    <span className="text-xs font-normal">Mostrar Mas</span>
                 </div>
             </div>
         </div>

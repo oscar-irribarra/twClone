@@ -12,7 +12,7 @@ export const Main = () => {
                 </div>
                 <h2 className="flex-1 my-auto px-3 font-bold divide-y divide-gray-50 divide-opacity-20 mr-3 text-base">Inicio</h2>
             </div>
-            <div className="py-2 border-r border-l"></div>
+            <div className="py-1 border-r border-l"></div>
             <div className="border">
                 <TweetForm />                
             </div>
