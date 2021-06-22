@@ -6,7 +6,7 @@ export const Main = () => {
     return (
     
         <div className="flex flex-col">
-            <div className="flex flex-row px-2 py-4 md:p-2 border-r border-b border-l sticky top-0 md:relative z-40 dark:bg-gray-900">
+            <div className="flex flex-row px-2 py-4 md:p-2 border-r border-b border-l sticky top-0 md:relative z-20 dark:bg-gray-900">
                 <div className="flex md:hidden justify-start">
                     <Photo />
                 </div>
